@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="student.css">
+</head>
+<body>
+    <div class="container">
+                              
+    <table style="width:80vh;">
+        <tr>
+            <td style="font-weight: 900">Student Id</td>
+            <td style="font-weight: 900">Student Name</td>
+            <td style="font-weight: 900">Student Email</td>
+            <td style="font-weight: 900">ClickBelow</td>
+        </tr>
+    </table>
+            <form  class="student_form" onsubmit="addStudent(event)">
+                     <h1>New Student</h1>
+                        <div class="inside">
+                      <label > Name:</label>
+                        <input type="text" class="name" placeholder="Enter name">
+                        </div>
+                       <br>
+                      <div class="inside">
+                       <label> Email:</label>
+                      <input type="email" class="email" placeholder="Enter Email">
+                      </div>
+                      <br>
+                     <div class="inside">
+                            <label style="font-size: 1.2rem ">Phone no:</label>
+                       <input type="" class="phone" placeholder="Enter Phone number">
+                     </div>
+                     <br>
+                      <div class="inside">
+                         <button type="submit" class="btn" style="height: 30px;width: 90px;margin-left: 10px;border-radius: 5px;">Submit</button>
+                     </div>
+            </form>
+         </div>
+</body>
+<script src="sstudent.js"></script>
+</html>

@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+body {
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: white;
+}
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.card:hover{
+      background-color: aliceblue;
+     transform: translateZ(-10px) scale(1.03);
+    
+}
+
+.btn {
+  border: none;
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  box-shadow: 0 0 15px rgba(255,255,255,0.6);
+  transform: scale(1.05);
+}
+
+.student { background: #4cafef; }
+.course { background: #ff9800; }
+.enrollment { background: #66bb6a; }
+
+
+

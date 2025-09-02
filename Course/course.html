@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="course.css">
+</head>
+<body>
+    <div class="container">
+      <table >
+        <tr>
+            <td>Course Id</td>
+            <td>Course Name</td>
+            <td>Course Price</td>
+            <td>Course Description</td>
+             <td>Click Below</td>
+        </tr>
+    </table>
+    <form  class="student_form" onsubmit="addCourse(event)">
+                     <h1>New Course</h1>
+                        <div class="inside">
+                      <label > CourseName:</label>
+                        <input type="text" class="courseName" placeholder="Enter CourseName">
+                        </div>
+                       <br>
+                      <div class="inside">
+                       <label> CoursePrice:</label>
+                      <input type="text" class="coursePrice" placeholder="Enter coursePrice">
+                      </div>
+                      <br>
+                     <div class="inside">
+                       <label style="font-size: 1.2rem ">Description:</label>
+                       <input type="text" class="courseDes" placeholder="Enter courseDes">
+                     </div>
+                     <br>
+                      <div class="inside">
+                         <button type="submit" class="btn" style="height: 30px;width: 90px;margin-left: 10px;border-radius: 5px;">Submit</button>
+                     </div>
+            </form> 
+
+    </div>
+</body>
+<script src="course.js"></script>
+</html>

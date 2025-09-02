@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="enrollment.css">
+</head>
+<body>
+    <div class="container">
+    <table >   
+        <tr>
+            <td>Student Name</td>
+             <td>Course</td>
+             <td>EnrollmentId</td>
+            <td>Student Grade</td>
+            <td>Student Attendance</td>
+            <td>Click Below</td>
+        </tr>
+    </table>
+             <form onsubmit="addStudInCour(event)"  class="student_form">
+                <div class="inside">
+                   <h2>Enroll Student in Course</h2>
+                </div>
+                       <div class="inside">
+                           <label for="student">Student </label>
+                         <select class="student" ></select>
+                       </div>
+                       <div class="inside">
+                            <label for="course">Course</label>
+                            <select class="course" ></select>
+                       </div>
+                          <div class="inside">
+                                <label>Grade</label>
+                                <input type="text" class="Grade" placeholder="Enter Grade">
+                          </div> 
+                        <div class="inside">
+                             <label>Attendance</label>
+                             <input type="text" class="Attendance" placeholder="Enter Attendance"> 
+                        </div>
+                        
+                        <div class="inside">
+                             <button type="submit">Submit</button>
+                        </div>
+             </form>
+    </div>
+</body>
+<script src="enrollment.js"></script>
+</html>
